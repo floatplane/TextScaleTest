@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +16,68 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.75" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="Bms-LG-f0F">
+                                <rect key="frame" x="176" y="550" width="279" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="275" id="G3c-6W-GZH"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="SzI-rW-0JS"/>
+                                </connections>
+                            </slider>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xA8-fp-jc9" userLabel="right (scaled)">
+                                <rect key="frame" x="330" y="20" width="254" height="522"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdj-G8-dqy" userLabel="left (unscaled)">
+                                <rect key="frame" x="16" y="20" width="246" height="542"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Umami pour-over Kickstarter cornhole, actually street art Wes Anderson blog leggings Vice master cleanse post-ironic crucifix hella. YOLO typewriter Schlitz crucifix, tote bag Helvetica forage normcore cold-pressed gentrify PBR Banksy keytar small batch. Aesthetic wayfarers bespoke retro, flannel fashion axe selfies typewriter kitsch you probably haven't heard of them small batch mixtape slow-carb. Umami American Apparel stumptown plaid seitan, bespoke XOXO beard banh mi. Whatever PBR listicle, leggings taxidermy squid kogi vinyl fap. Food truck keffiyeh photo booth, you probably haven't heard of them put a bird on it letterpress yr XOXO Shoreditch try-hard flexitarian PBR. Neutra Intelligentsia church-key 3 wolf moon crucifix flexitarian, 90's hashtag direct trade meditation Kickstarter.
+
+Mumblecore cardigan kale chips, taxidermy direct trade mustache keffiyeh heirloom Brooklyn retro readymade semiotics. Readymade roof party viral crucifix, stumptown PBR&amp;B heirloom brunch post-ironic trust fund. Asymmetrical you probably haven't heard of them XOXO, selvage shabby chic sriracha leggings flannel Intelligentsia fashion axe Austin. Skateboard Carles pork belly ennui, mustache bespoke taxidermy. +1 beard farm-to-table freegan. Typewriter sustainable gastropub tilde synth. Aesthetic Vice normcore, flannel wayfarers vegan health goth twee yr mixtape whatever cold-pressed.
+
+Yr McSweeney's Truffaut beard. Street art keffiyeh McSweeney's whatever, Echo Park lomo pickled chambray beard tilde lumbersexual biodiesel polaroid. Gentrify pop-up distillery taxidermy irony next level, tote bag Portland gluten-free. Church-key single-origin coffee typewriter Brooklyn twee vegan authentic shabby chic, hoodie PBR&amp;B flannel banjo plaid. Vegan fap freegan street art, cold-pressed bespoke put a bird on it. Skateboard master cleanse letterpress disrupt synth. Blue Bottle quinoa typewriter jean shorts, readymade twee Austin put a bird on it umami cronut Pitchfork banh mi.
+
+Carles Brooklyn letterpress stumptown. Ugh roof party direct trade cardigan Neutra seitan. Listicle bitters seitan, pop-up vegan meh normcore PBR&amp;B Carles blog Shoreditch plaid tote bag. PBR&amp;B Thundercats retro authentic. Meggings lumbersexual 90's, kale chips DIY YOLO sustainable typewriter. Heirloom readymade fixie cardigan, wolf raw denim skateboard umami brunch bitters cray chillwave Pinterest disrupt Bushwick. YOLO photo booth Wes Anderson locavore you probably haven't heard of them.
+
+Biodiesel hashtag Pinterest narwhal iPhone, art party Schlitz meggings keffiyeh bespoke beard plaid. PBR umami bespoke pug cold-pressed aesthetic. Pickled post-ironic XOXO sriracha, street art Carles stumptown Truffaut tousled next level photo booth wayfarers single-origin coffee occupy pug. McSweeney's readymade normcore, Schlitz cold-pressed roof party Carles health goth vegan plaid sriracha irony bitters. Kale chips umami food truck cornhole disrupt banjo. Pour-over pug cliche sustainable, trust fund twee plaid shabby chic Austin bespoke. Helvetica meh biodiesel stumptown.
+
+Four dollar toast selfies cornhole stumptown meditation, mumblecore gentrify. Bitters biodiesel semiotics, Helvetica small batch hella Pinterest put a bird on it blog Thundercats. Wolf 90's occupy, Etsy blog lo-fi synth cliche fashion axe. McSweeney's Thundercats Helvetica polaroid hoodie organic single-origin coffee, next level artisan. Tumblr cray biodiesel DIY messenger bag, iPhone blog. Bitters keffiyeh flexitarian flannel Shoreditch, forage fap YOLO migas. Ennui leggings Vice jean shorts ugh pug.
+
+Four loko listicle pickled, photo booth meggings salvia four dollar toast Blue Bottle ethical. Helvetica authentic mumblecore YOLO. Carles Blue Bottle umami, Echo Park 8-bit gentrify direct trade slow-carb lumbersexual cardigan kitsch cronut Neutra. Chia Austin Godard organic, ennui farm-to-table hashtag listicle VHS 3 wolf moon disrupt. Next level church-key pop-up, 90's literally ennui YOLO chillwave Wes Anderson pour-over brunch keffiyeh farm-to-table banh mi. Fixie polaroid trust fund narwhal synth twee. Chia iPhone trust fund, Marfa hoodie hella Tumblr forage lomo next level chillwave kitsch Thundercats slow-carb fixie.
+
+Salvia keytar brunch, Neutra actually mustache Etsy viral locavore tattooed cornhole skateboard sartorial. Salvia twee church-key, cronut brunch Helvetica 8-bit. Normcore hoodie irony DIY. Disrupt stumptown raw denim Bushwick Marfa, dreamcatcher Helvetica Truffaut banjo Banksy jean shorts mustache cred Pinterest Pitchfork. Occupy whatever cliche, squid kitsch polaroid Marfa YOLO disrupt Wes Anderson. Flexitarian Helvetica bitters tofu lomo direct trade. Letterpress lumbersexual mustache fap selvage.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="A6M-7S-TI6"/>
+                                </connections>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Bms-LG-f0F" secondAttribute="bottom" constant="20" id="0wn-3F-I6R"/>
+                            <constraint firstItem="xA8-fp-jc9" firstAttribute="width" secondItem="gdj-G8-dqy" secondAttribute="width" id="4P3-F8-MaS"/>
+                            <constraint firstItem="xA8-fp-jc9" firstAttribute="bottom" secondItem="gdj-G8-dqy" secondAttribute="bottom" id="6YK-e2-uX1"/>
+                            <constraint firstItem="xA8-fp-jc9" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="8fj-Jb-XrF"/>
+                            <constraint firstItem="xA8-fp-jc9" firstAttribute="top" secondItem="gdj-G8-dqy" secondAttribute="top" id="93x-gp-Elu"/>
+                            <constraint firstItem="xA8-fp-jc9" firstAttribute="leading" secondItem="gdj-G8-dqy" secondAttribute="trailing" constant="17" id="CaY-Sm-scH"/>
+                            <constraint firstItem="gdj-G8-dqy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="G9T-Eq-hYF"/>
+                            <constraint firstItem="Bms-LG-f0F" firstAttribute="top" secondItem="xA8-fp-jc9" secondAttribute="bottom" constant="8" id="Pn9-xc-HQh"/>
+                            <constraint firstAttribute="centerX" secondItem="Bms-LG-f0F" secondAttribute="centerX" id="U9M-WG-eYI"/>
+                            <constraint firstItem="gdj-G8-dqy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cIM-gj-01T"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="left" destination="gdj-G8-dqy" id="snu-er-LGK"/>
+                        <outlet property="right" destination="xA8-fp-jc9" id="Rkn-qm-DGk"/>
+                        <outlet property="slider" destination="Bms-LG-f0F" id="w1R-8p-6sS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

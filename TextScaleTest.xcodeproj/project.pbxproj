@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		D3651E471AE86AB000C6D06B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3651E461AE86AB000C6D06B /* main.m */; };
 		D3651E4A1AE86AB000C6D06B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3651E491AE86AB000C6D06B /* AppDelegate.m */; };
-		D3651E4D1AE86AB000C6D06B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3651E4C1AE86AB000C6D06B /* ViewController.m */; };
 		D3651E501AE86AB000C6D06B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3651E4E1AE86AB000C6D06B /* Main.storyboard */; };
 		D3651E521AE86AB000C6D06B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3651E511AE86AB000C6D06B /* Images.xcassets */; };
 		D3651E551AE86AB000C6D06B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3651E531AE86AB000C6D06B /* LaunchScreen.xib */; };
 		D3651E611AE86AB000C6D06B /* TextScaleTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3651E601AE86AB000C6D06B /* TextScaleTestTests.m */; };
+		D3E16D1F1AE8702E0051B4B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E16D1E1AE8702E0051B4B7 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		D3651E461AE86AB000C6D06B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3651E481AE86AB000C6D06B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3651E491AE86AB000C6D06B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3651E4B1AE86AB000C6D06B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D3651E4C1AE86AB000C6D06B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D3651E4F1AE86AB000C6D06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3651E511AE86AB000C6D06B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D3651E541AE86AB000C6D06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D3651E5A1AE86AB000C6D06B /* TextScaleTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextScaleTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3651E5F1AE86AB000C6D06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3651E601AE86AB000C6D06B /* TextScaleTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextScaleTestTests.m; sourceTree = "<group>"; };
+		D3E16D1D1AE8702E0051B4B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3E16D1E1AE8702E0051B4B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +81,10 @@
 		D3651E431AE86AB000C6D06B /* TextScaleTest */ = {
 			isa = PBXGroup;
 			children = (
+				D3E16D1D1AE8702E0051B4B7 /* ViewController.h */,
+				D3E16D1E1AE8702E0051B4B7 /* ViewController.m */,
 				D3651E481AE86AB000C6D06B /* AppDelegate.h */,
 				D3651E491AE86AB000C6D06B /* AppDelegate.m */,
-				D3651E4B1AE86AB000C6D06B /* ViewController.h */,
-				D3651E4C1AE86AB000C6D06B /* ViewController.m */,
 				D3651E4E1AE86AB000C6D06B /* Main.storyboard */,
 				D3651E511AE86AB000C6D06B /* Images.xcassets */,
 				D3651E531AE86AB000C6D06B /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3651E4D1AE86AB000C6D06B /* ViewController.m in Sources */,
+				D3E16D1F1AE8702E0051B4B7 /* ViewController.m in Sources */,
 				D3651E4A1AE86AB000C6D06B /* AppDelegate.m in Sources */,
 				D3651E471AE86AB000C6D06B /* main.m in Sources */,
 			);
@@ -414,6 +414,7 @@
 				D3651E661AE86AB000C6D06B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3651E671AE86AB000C6D06B /* Build configuration list for PBXNativeTarget "TextScaleTestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				D3651E691AE86AB000C6D06B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
